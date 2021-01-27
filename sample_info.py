@@ -25,7 +25,7 @@ START_MSG = """
 **Hi, I'm Books Search bot**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
-created by @Islam_Dawood
+Created By @Islam_Dawood
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
