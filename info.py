@@ -26,9 +26,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Books Search bot**
 
 Here you can search files in inline mode. Just press following buttons and start searching.
+Created By @Islam_Dawood
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
