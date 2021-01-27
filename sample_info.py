@@ -6,7 +6,7 @@ API_HASH = '0123456789abcdef0123456789abcdef'
 BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
 
 # Bot settings
-MAX_RESULTS = 10
+MAX_RESULTS = 20
 CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
@@ -22,9 +22,10 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Books Search bot**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
+created by @Islam_Dawood
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
