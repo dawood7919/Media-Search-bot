@@ -24,14 +24,14 @@ DATABASE_URI = environ['DATABASE_URI']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
-# Messages
+# Messages🤍
 START_MSG = """
-**مرحبا بك  **
+**🤍 مرحبا بك  **
 
 بإستخدام هذا البوت يمكنك البحث عن الكتب والروايات المخزنه في قاعدة بياناتي 
 
-Created By @Islam_Dawood
-Ask for more Books @DawoodFBot
+Created By @Islam_Dawood 🤖
+Ask for more Books @DawoodFBot 📚
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
