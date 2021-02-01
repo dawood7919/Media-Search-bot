@@ -60,7 +60,7 @@ def get_reply_markup(username):
     url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT.format(username=username))
     buttons = [[
         InlineKeyboardButton(' مشاركه في ', url=url),
-        InlineKeyboardButton(' بحث ', switch_inline_query_current_chat=''),];
+        InlineKeyboardButton(' بحث ', switch_inline_query_current_chat=''),],
         [
         InlineKeyboardButton(' طلب كتب ', url="https://t.me/Dawoodfbot"),
         InlineKeyboardButton(' مساعدة ', url="https://t.me/islam_dawood"),
