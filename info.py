@@ -36,4 +36,10 @@ Created By @Islam_Dawood 🤖
 Ask for more Books @DawoodFBot 📚
 """
 
-SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+SHARE_BUTTON_TEXT = """للبحث عن الكتب والروايات يمكنك تجربة 
+
+{username}
+
+🤍🤍🤍
+"""
+
