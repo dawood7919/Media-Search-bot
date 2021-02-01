@@ -26,10 +26,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Books Search bot**
+**مرحبا بك  **
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+بإستخدام هذا البوت يمكنك البحث عن الكتب والروايات المخزنه في قاعدة بياناتي 
+
 Created By @Islam_Dawood
+Ask for more Books @DawoodFBot
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
