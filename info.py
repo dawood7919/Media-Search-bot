@@ -19,13 +19,15 @@ CHANNELS = [int(ch) if re.search('^.\d+$', ch) else ch for ch in environ['CHANNE
 auth_users = [int(user) if re.search('^\d+$', user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
+
 # MongoDB information
 DATABASE_URI = environ['DATABASE_URI']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+
 # Messages🤍
-START_MSG = """
+START_MSG = f"""
 ** مرحبا بك 🤍 **
 
 بإستخدام هذا البوت يمكنك البحث عن الكتب والروايات المخزنه في قاعدة بياناتي 
